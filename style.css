@@ -1,1 +1,204 @@
+body {
+    margin: auto;
+    background-color: #010409;
+    max-width: 2280px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+header {
+    margin: 0px;
+    height: 60px;
+    background-color: #010409;
+    border: 1px solid #3D444D;
+    display: flex;
+
+}
+
+.out-div {
+    margin: 15px;
+    height: 30px;
+    width: 1356px;
+    display: inline;
+    display: flex;
+}
+
+.out-div-one {
+    height: 20px;
+    margin: 0px;
+    display: inline;
+}
+
+.out-div-two {
+    height: 30px;
+    margin: 0px;
+    display: flex;
+}
+
+.out-div-three {
+    height: 30px;
+    margin: 0px;
+}
+
+.three-horizontal-line-icon {
+    color: #3D444D;
+    margin: auto;
+    margin-left: 8px;
+    height: 30px;
+}
+
+.three-horizontal-line-icon-box {
+    height: 30px;
+    width: 30px;
+    background-color: #010409;
+    color: #3D444D;
+    border: 1px solid #3D444D;
+    border-radius: 5px;
+}
+
+div .github-logo {
+    margin-left: 15px;
+    margin-top: 1px;
+    background-color: #010409;
+}
+
+.one {
+    display: flex;
+}
+
+#Dashboard {
+    color: white;
+    margin: 5px 0px 0px 15px;
+    width: 100%;
+}
+
+.search {
+    height: 33px;
+    width: 33px;
+    border: 2px solid #3D444D;
+
+}
+
+.svg {
+    background-color: #010409;
+    padding-top: 7px;
+    color: white;
+    padding-left: 7px;
+}
+
+.main {
+    display: flex;
+    gap: 0px;
+    margin-left: 980px;
+}
+
+.search1 {
+    height: 33px;
+    width: 63px;
+    border: 2px solid #3D444D;
+    margin-left: 20px;
+
+}
+
+.img {
+    padding-top: 3px;
+    padding-left: 2px;
+    height: 30px;
+    width: 40px;
+}
+
+.arrow {
+    color: #3D444D;
+    height: 17px;
+    width: 10px;
+    padding-bottom: 8px;
+    padding-right: 3px;
+}
+
+.se {
+    background-color: black;
+    border: none;
+    height: 37px;
+    width: 300px;
+    border: 1px solid #3D444D;
+}
+
+.img1 {
+    padding-top: 6px;
+    padding-left: 2px;
+    height: 20px;
+    width: 30px;
+    color: #3D444D;
+}
+
+.arrow1 {
+    color: #3D444D;
+    height: 17px;
+    width: 10px;
+    padding-bottom: px;
+    padding-right: 4px;
+}
+
+.search2 {
+    height: 33px;
+    width: 36px;
+    border: 2px solid #3D444D;
+    margin-left: 20px;
+
+}
+
+.search3 {
+    height: 33px;
+    width: 36px;
+    border: 2px solid #3D444D;
+    margin-left: 20px;
+
+}
+
+.search4 {
+    height: 33px;
+    width: 36px;
+    border: 2px solid #3D444D;
+    margin-left: 20px;
+
+}
+
+.img2 {
+    height: 30px;
+    width: 35px;
+    color: #3D444D;
+}
+
+.search5 {
+    margin-left: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+@media screen and (max-width:375px) {
+    header {
+        height: 60px;
+    }
+
+    .main {
+        margin-left: 20px;
+    }
+
+    .se {
+        display: none;
+    }
+
+    .search1 {
+        display: none;
+    }
+
+    .search2 {
+        display: none;
+    }
+
+    .search3 {
+        display: none;
+    }
+}
